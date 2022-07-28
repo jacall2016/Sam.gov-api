@@ -1,0 +1,93 @@
+{
+    "totalRecords": 4665,
+    "limit": 10,
+    "offset": 0,
+    "opportunitiesData": [
+      {
+        "noticeId": "ffe28b6704e24bcf9fed89a23bc045d1",
+        "title": "16--BODY,VALVE",
+        "solicitationNumber": "SPE4A522T060W",
+        "fullParentPathName": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY (DLA).DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
+        "fullParentPathCode": "097.97AS.DLA AVIATION.DLA AV RICHMOND.SPE4A5",
+        "postedDate": "2022-06-13",
+        "type": "Award Notice",
+        "baseType": "Award Notice",
+        "archiveType": "auto15",
+        "archiveDate": "2022-06-28",
+        "typeOfSetAsideDescription": null,
+        "typeOfSetAside": null,
+        "responseDeadLine": null,
+        "naicsCode": "336411",
+        "naicsCodes": [
+          "336411"
+        ],
+        "classificationCode": "16",
+        "active": "Yes",
+        "award": {
+          "date": "2022-06-13",
+          "number": "SPE4A522P7594",
+          "amount": "45938.00",
+          "awardee": {
+            "ueiSAM": "W9UFFHJXD489",
+            "cageCode": "5V361"
+          }
+        },
+        "pointOfContact": [
+          {
+            "fax": null,
+            "type": "primary",
+            "email": "Sean.Gallagher@dla.mil",
+            "phone": null,
+            "title": null,
+            "fullName": "Sean Gallagher 804-279-6146"
+          }
+        ],
+        "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffe28b6704e24bcf9fed89a23bc045d1",
+        "organizationType": "OFFICE",
+        "officeAddress": {
+          "zipcode": "23297",
+          "city": "RICHMOND",
+          "countryCode": "USA",
+          "state": "VA"
+        },
+        "placeOfPerformance": null,
+        "additionalInfoLink": null,
+        "uiLink": "https://sam.gov/opp/ffe28b6704e24bcf9fed89a23bc045d1/view",
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=ffe28b6704e24bcf9fed89a23bc045d1&limit=1"
+          }
+        ],
+        "resourceLinks": null
+      }
+    ]
+}
+
+//desctiption example
+
+{
+  "description":
+  "<p>The Air Force intends to solicit and award a firm fixed price, 
+  sole source purchase order to Blade Diagnostics Corporation (Pittsburgh, PA; CAGE Code 332B2), 
+  under the authority of AFFARS 5313.501 (10 U.S.C. 2302b), 
+  for the PM/RM Services on the SmartBlend System for the Oklahoma City Air Logistics Complex (OC-ALC)
+  for the period of 14 June 2022 &ndash; 13 June 2027.
+  </p>\n\n<p></p>\n\n<p>The NAICS code for this requirement is 811219 with a size standard of $22M.
+  </p>\n\n<p></p>\n\n<p>Contractor registration &ndash;
+  which results in receiving a unique, active CAGE Code &ndash;
+  in the System for Award Management (SAM) is required prior to receiving any contracts or orders from the Government.&nbsp;
+  Contractors can register electronically at https://sam.gov/content/home.&nbsp;
+  </p>\n\n<p></p>\n\n<p>Interested persons may identify their interest and capability to respond to the requirement by
+   submitting a quote and information.&nbsp; Electronic procedures will be used for this solicitation
+   through Beta SAM at https://www.beta.sam.gov/.&nbsp; No telephone requests.</p>\n"
+}
+
+{"errorMessage":"Description Not Found"}
+
+{
+  "error": {
+    "code": "OVER_RATE_LIMIT",
+    "message": "The API key has exceeded the rate limits."
+}
+
